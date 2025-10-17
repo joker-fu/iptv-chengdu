@@ -16,7 +16,7 @@ import re
 sourceTvboxIptv="https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt"
 sourceIcon51ZMT="https://epg.51zmt.top:8001"
 sourceChengduMulticast="https://epg.51zmt.top:8001/sctvmulticast.html"
-homeLanAddress="http://192.168.20.34:4000"
+homeLanAddress="http://192.168.31.250"
 totalEPG="https://epg.51zmt.top:8001/e.xml,https://epg.112114.xyz/pp.xml"
 
 groupCCTV=["CCTV", "CETV", "CGTN"]
