@@ -102,7 +102,7 @@ def loadIcon():
     """
     try:
         print(f"正在获取图标数据: {sourceIcon51ZMT}")
-        response = requests.get(sourceIcon51ZMT, verify=False, timeout=30)
+        response = requests.get(sourceIcon51ZMT, verify=False, timeout=90)
         response.raise_for_status()
         
         if not response.content:
@@ -191,7 +191,7 @@ def main():
     # 获取成都组播数据
     try:
         print(f"正在获取成都组播数据: {sourceChengduMulticast}")
-        response = requests.get(sourceChengduMulticast, verify=False, timeout=30)
+        response = requests.get(sourceChengduMulticast, verify=False, timeout=90)
         response.raise_for_status()  # 检查HTTP状态码
         
         if not response.content:
